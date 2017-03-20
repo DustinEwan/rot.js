@@ -3,6 +3,7 @@
 /node_modules
 /package.json
 /test
+/.vscode
 
 # exclude idea based editors
 .idea/
