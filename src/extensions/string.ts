@@ -1,3 +1,17 @@
+
+interface String {
+	capitalize(): string
+	lpad(character: string, count: number): string;
+	rpad(character: string, count: number): string;
+	format(): string
+}
+
+type StringFormatter = ((template: any) => string) | any
+
+interface StringConstructor {
+	format: StringFormatter
+}
+
 /**
  * @returns {string} First letter capitalized
  */

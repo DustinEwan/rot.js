@@ -1,4 +1,5 @@
 
+import '../extensions/number';
 import { DisplayBackend } from './backend';
 
 /**

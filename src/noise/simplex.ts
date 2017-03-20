@@ -1,6 +1,8 @@
 
 import { Noise } from './noise';
-import '../js/number';
+import '../extensions/number';
+import '../extensions/array';
+
 /**
  * A simple 2d implementation of simplex noise by Ondrej Zara
  *
@@ -14,7 +16,7 @@ import '../js/number';
  * @class 2D simplex noise generator
  * @param {int} [gradients=256] Random gradients
  */
-class Simplex implements Noise {
+export class Simplex implements Noise {
 
 	private _F2;
 	private _G2;

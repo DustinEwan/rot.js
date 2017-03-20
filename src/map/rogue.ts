@@ -2,6 +2,7 @@
 import { Map } from './map';
 import * as RNG from '../rng';
 import * as ROT from '../rot';
+import '../extensions/array';
 
 /**
  * @author hyakugei

@@ -1,3 +1,6 @@
+
+import './extensions/raf';
+
 /**
  * @namespace Top-level ROT namespace
  */

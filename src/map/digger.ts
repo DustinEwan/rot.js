@@ -4,7 +4,7 @@ import { Dungeon } from './dungeon';
 import * as RNG from '../rng';
 import * as ROT from '../rot';
 import { Feature, Room, Corridor } from './features';
-import '../js/array';
+import '../extensions/array';
 
 /**
  * @class Random dungeon generator using human-like digging patterns.

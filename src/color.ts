@@ -1,4 +1,5 @@
 import * as RNG from './rng';
+import './extensions/string';
 
 /**
  * @namespace Color operations

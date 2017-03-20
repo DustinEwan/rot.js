@@ -1,7 +1,7 @@
 
 import { Map } from './map'
 import { Feature, Room, Corridor } from './features';
-import '../js/array';
+import '../extensions/array';
 
 /**
  * @class Dungeon generator which tries to fill the space evenly. Generates independent rooms and tries to connect them.

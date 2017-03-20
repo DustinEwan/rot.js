@@ -5,6 +5,8 @@ import { HexDisplay } from './hex';
 import { RectDisplay } from './rect';
 import { TileDisplay } from './tile';
 
+import './extensions/string';
+
 const DisplayBackends = {
 	'Hex': HexDisplay,
 	'Rect': RectDisplay,

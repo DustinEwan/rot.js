@@ -1,5 +1,6 @@
 
 import { Map } from './map';
+import './extensions/array';
 
 /**
  * @class Recursively divided maze, http://en.wikipedia.org/wiki/Maze_generation_algorithm#Recursive_division_method
