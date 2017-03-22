@@ -4,7 +4,7 @@ import './extensions/raf';
 /**
  * @namespace Top-level ROT namespace
  */
-const ROT = {
+export const ROT = {
 	/**
 	 * @returns {bool} Is rot.js supported by this browser?
 	 */
@@ -354,5 +354,3 @@ const ROT = {
 	/** Linux support for this keycode was added in Gecko 4.0.	 */
 	VK_SLEEP: 95,
 };
-
-export = ROT;
